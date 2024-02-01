@@ -1,7 +1,9 @@
 package co.zhanglintc.beans;
 
 import co.zhanglintc.intf.WelcomeInterface;
+import org.springframework.stereotype.Component;
 
+@Component
 public class StringWelcome implements WelcomeInterface {
     private String name;
 
